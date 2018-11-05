@@ -19,5 +19,5 @@ def run_nlu():
 	print(interpreter.parse(u"Quel temps fait-il à Paris ?"))
 	
 if __name__ == '__main__':
-	train_nlu('./data/data.json', 'config_spacy.yml', './models/nlu')
+	# train_nlu('./data/data.json', 'config_spacy.yml', './models/nlu')
 	run_nlu()
