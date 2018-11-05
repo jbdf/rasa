@@ -1,5 +1,8 @@
 # coding: utf-8
 
+import os
+os.environ["TF_CPP_MIN_LOG_LEVEL"]="3"
+
 from rasa_nlu.training_data import load_data
 from rasa_nlu import config
 from rasa_nlu.model import Trainer
