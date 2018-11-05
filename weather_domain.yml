@@ -1,0 +1,26 @@
+slots:
+  location:
+    type: text
+
+intents:
+- greet
+- goodbye
+- inform
+
+entities:
+- location
+
+templates:
+  utter_greet:
+    - 'Bonjour ? Que puis-je faire pour vous ?'
+  utter_goodbye:
+    - 'A bientôt'
+    - 'Bye bye :('
+  utter_ask_location:
+    - 'Dans quelle ville ?'
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- actions.ActionWeather
