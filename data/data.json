@@ -1,0 +1,223 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Bonjour",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Au revoir",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bonsoir",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Coucou",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Salut",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Merci",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "A bientôt",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Adieu",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Tchao",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Ciao",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Au plaisir",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "A la revoyure",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "A la prochaine",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Quel temps fait-il à Berlin en ce moment ?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Quel temps fait-il aujourd'hui ?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Quel temps fait-il aujourd'hui à Londres ?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 33,
+            "end": 40,
+            "value": "Londres",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Dis-moi quel temps il fait à Paris",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Je me demande quel temps il fait à Vilnius en ce moment",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 42,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Est-ce qu'il fait beau à Barcelone aujoud'hui ?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Barcelone",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "à Londres",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "value": "Londres",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "en Lithuanie",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Lithuanie",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "La météo en Italie",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "Italie",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Ah, désolé, en Allemagne",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Allemagne",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Je prépare mon voyage à Amsterdam. quel temps fait-il là-bas ?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Je vais à New-York aujourd'hui et je me demande quel temps il fait",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "New-York",
+            "entity": "location"
+          }
+        ]
+      }
+    ]
+  }
+}
